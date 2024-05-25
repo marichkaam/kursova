@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.button-group {
+  margin: 20px 0;
+}
+
+.main-button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.sidebar {
+  text-align: left;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.sidebar p {
+  margin: 10px 0;
+}
+
+.sidebar ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
