@@ -2,14 +2,13 @@ import React, { useState } from 'react';
 import { Container, Form, Button } from 'react-bootstrap';
 import styled from 'styled-components';
 import { Link, useHistory } from 'react-router-dom';
-import axios from 'axios';
 import registerUser from './api'; // Adjust path if necessary
 import backgroundImage from './login.jpg'; // Ensure the path is correct
 
 const PageContainer = styled(Container)`
   background-image: url(${backgroundImage});
   background-size: cover;
-  background-position: center;
+  background-position: center;x
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw; /* Make the container full width */

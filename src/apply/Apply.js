@@ -36,7 +36,6 @@ const Apply = () => {
       });
 
       if (response.ok) {
-        const result = await response.json();
         fetchCandidates(); // Fetch updated list of candidates
       } else {
         console.error('Failed to submit the application');
