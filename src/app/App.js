@@ -10,6 +10,8 @@ import Apply from '../apply/Apply';
 import { CandidateProvider } from '../CandidateContext';
 //import { SuccessPage } from './SuccessPage';
 
+
+
 function App() {
   return (
     <CandidateProvider>
@@ -28,5 +30,6 @@ function App() {
       </CandidateProvider>
   );
 }
+
 
 export default App;
